@@ -1,0 +1,91 @@
+form{
+    text-align: left;
+}
+.input-group{
+    width: 80%;
+    margin-bottom: 32px;
+}
+.input-group label{
+    display: block;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.input-group input,
+.input-group textarea,
+.input-group select{
+    margin-left: 20px;
+    width:100%;
+    border-radius: 3px;
+    border:1px solid #ccc;
+    outline:none;
+    font-size: 16px;
+    padding:4px 8px;
+    vertical-align: top;
+}
+.input-group input:focus,
+.input-group textarea:focus{
+    border:1px solid #0863d3;
+}
+.input-group select{
+    width:30%;
+    max-width:200px;
+    min-width:150px;
+    height: 28px;
+}
+
+form button{
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-group input.has-error,
+.input-group textarea.has-error{
+    border:1px solid red;
+}
+.img-link {
+
+
+}
+
+.img-choices{
+
+
+    background-color: rgba(0, 188, 212, 0);
+    transition: background-color 0.5s;
+}
+
+/*.img-choices:hover {*/
+    /*background-color: rgba(0, 188, 212, 0.8);*/
+/*// You can tweak with other background properties too (ie: background-image)...*/
+/*}*/
+
+.img-content {
+    vertical-align: bottom;
+}
+.edit-link{
+    border:1px solid black;
+    width:40%;
+    display:inline-block;
+    text-align: center;
+    padding: 2px;
+    background-color: #fff;
+
+}
+.edit-link:hover{
+    background-color: rgba(222, 221, 221, 1);
+    cursor: pointer;
+    -webkit-transition: background-color 500ms ease-in-out;
+    -moz-transition: background-color 500ms ease-in-out;
+    -ms-transition: background-color 500ms ease-in-out;
+    -o-transition: background-color 500ms ease-in-out;
+    transition: background-color 500ms ease-in-out;
+}
+/*.img-content:hover + .img-choices {*/
+    /*display: block;*/
+    /*opacity: 1.0;*/
+    /*-webkit-transition: all 500ms ease-in-out;*/
+    /*-moz-transition: all 500ms ease-in-out;*/
+    /*-ms-transition: all 500ms ease-in-out;*/
+    /*-o-transition: all 500ms ease-in-out;*/
+    /*transition: all 500ms ease-in-out;*/
+/*}*/
